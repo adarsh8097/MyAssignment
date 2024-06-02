@@ -30,7 +30,7 @@ const Sidebar = ({ isCollapsed, toggleCollapse }) => {
        </div>
        
       
-         <div className='flex justify-between border text-1xl cursor-pointer bg-gray-300 my-3' onClick={handledata}>
+         <div className='flex justify-between border p-2 text-1xl cursor-pointer bg-gray-300 my-3' onClick={handledata}>
          <div className='flex gap-2'>
          <p className='text-2xl text-blue-800'><BiTask/></p>
          <p>Tasks</p>
@@ -39,7 +39,7 @@ const Sidebar = ({ isCollapsed, toggleCollapse }) => {
          <p className='mx-2 text-blue-800'>4</p>
          </div>
           </div>
-          <div className='flex justify-between sens-serif text-1xl  my-3'>
+          <div className='flex justify-between sens-serif text-1xl p-2 my-3 hover:bg-violet-200 active:bg-violet-700 focus:outline-none focus:ring focus:ring-violet-300 cursor-pointer'  onClick={handledata}>
          <div className='flex gap-2'>
          <p className='text-2xl text-blue-800'><MdDriveFolderUpload/></p>
          <p>Drive File</p>
@@ -48,7 +48,7 @@ const Sidebar = ({ isCollapsed, toggleCollapse }) => {
          <p className='mx-2 text-blue-800'>435</p>
          </div>
           </div>
-          <div className='flex justify-between sens-serif text-1xl  my-3'>
+          <div className='flex justify-between sens-serif text-1xl p-2 my-3 hover:bg-violet-200 active:bg-violet-700 focus:outline-none focus:ring focus:ring-violet-300 cursor-pointer'  onClick={handledata}>
          <div className='flex gap-2'>
          <p className='text-2xl text-blue-800'><MdOutlineDashboardCustomize/></p>
          <p>Boards</p>
@@ -58,7 +58,7 @@ const Sidebar = ({ isCollapsed, toggleCollapse }) => {
          </div>
 
           </div>
-          <div className='flex justify-between sens-serif text-1xl  my-3'>
+          <div className='flex justify-between sens-serif text-1xl p-2 my-3 hover:bg-violet-200 active:bg-violet-700 focus:outline-none focus:ring focus:ring-violet-300 cursor-pointer'  onClick={handledata}>
          <div className='flex gap-2'>
          <p className='text-2xl text-blue-800'><MdOutlineUpdate/></p>
          <p>Update</p>
@@ -68,7 +68,7 @@ const Sidebar = ({ isCollapsed, toggleCollapse }) => {
          </div>
          
           </div>
-          <div className='flex justify-between sens-serif text-1xl  my-3'>
+          <div className='flex justify-between sens-serif text-1xl p-2 my-3 hover:bg-violet-200 active:bg-violet-700 focus:outline-none focus:ring focus:ring-violet-300 cursor-pointer'  onClick={handledata}>
          <div className='flex gap-2'>
          <p className='text-2xl text-blue-800'><TbAnalyze/></p>
          <p>Analytics</p>
@@ -78,7 +78,7 @@ const Sidebar = ({ isCollapsed, toggleCollapse }) => {
          </div>
 
           </div>
-          <div className='flex justify-between sens-serif text-1xl  my-3'>
+          <div className='flex justify-between sens-serif text-1xl  p-2 my-3 hover:bg-violet-200 active:bg-violet-700 focus:outline-none focus:ring focus:ring-violet-300 cursor-pointer'  onClick={handledata}>
          <div className='flex gap-2'>
          <p className='text-2xl text-blue-800'><MdSpaceDashboard/></p>
          <p>CRM Dashboard</p>
@@ -88,7 +88,7 @@ const Sidebar = ({ isCollapsed, toggleCollapse }) => {
          </div>
 
           </div>
-          <div className='flex justify-between sens-serif text-1xl  my-3'>
+          <div className='flex justify-between sens-serif text-1xl p-2 my-3 hover:bg-violet-200 active:bg-violet-700 focus:outline-none focus:ring focus:ring-violet-300 cursor-pointer'  onClick={handledata}>
          <div className='flex gap-2'>
          <p className='text-2xl text-blue-800'><IoMdSettings/></p>
          <p>Setting</p>
