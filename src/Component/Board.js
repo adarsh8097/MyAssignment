@@ -15,7 +15,7 @@ const Board = () => {
     const newTask = {
       id: String(tasks.length + 1),
       title: `Task ${tasks.length + 1}`,
-      description: `Description ${tasks.length + 1}`,
+      description: `I love this one. While discussing tools with a few members at MomMasterminds, one asked if anyone knew a todo web  app that would create tasks using text messages${tasks.length + 1}`,
       status: 'backlog',
     };
     setTasks([...tasks, newTask]);
